@@ -1,0 +1,224 @@
+/* 
+  UnifiedForumUI.strings
+  Pods
+
+  Created by XueFeng Chen on 2022/11/10.
+  
+*/
+
+// logInView
+
+"logInView.orLabel.text" = "-- Or --";
+"logInView.loginButton.title" = "Account Login";
+"logInView.anonymousLoginButton.title" = "Anonymous Login";
+"logInView.signUpButton.title" = "Register";
+"logInView.resetPasswordButton.title" = "Forget Password?";
+
+// logIn Alert View
+
+"logInAlertView.titleLabel.text" = "Login";
+"logInAlertView.subTitleLabel.text" = "Please Enter User Name and Password!";
+"logInAlertView.userNameField.placeholder" = "User Name";
+"logInAlertView.passwordField.placeholder" = "Password";
+"logInAlertView.loginButton.title" = "Login";
+"logInAlertView.closeButton.title" = "Cancel";
+
+
+// signUp Alert View
+
+"signUpAlertView.titleLabel.text" = "Register";
+"signUpAlertView.subTitleLabel.text" = "Register means you agree user term";
+
+"signUpAlertView.userNameField.placeholder" = "User Name";
+"signUpAlertView.passwordField.placeholder" = "Password";
+"signUpAlertView.emailField.placeholder" = "Email";
+
+"signUpAlertView.signupButton.title" = "Register";
+"signUpAlertView.userTermButton.title" = "User Term";
+"signUpAlertView.closeButton.title" = "Cancel";
+
+
+// reset Password Alert View
+
+"resetPasswordAlertView.titleLabel.text" = "Forget Password?";
+"resetPasswordAlertView.subTitleLabel.text" = "Please Enter Your Associated Email Account";
+"resetPasswordAlertView.emailField.placeholder" = "Email";
+"resetPasswordAlertView.resetPasswordButton.title" = "Send";
+"resetPasswordAlertView.closeButton.title" = "Cancel";
+
+
+// userNameField/passwordField/emailField Check
+"userNameField.text.isEmpty" = "Please Enter User Name!";
+"passwordField.text.isEmpty" = "Please Enter Password!";
+"emailField.text.isInvalid" = "Please Enter a Valid Email!";
+
+
+// logIn Failed Alert View
+
+"logInFailedAlertView.titleLabel.text" = "Login Failed";
+"logInFailedAlertView.subTitleLabel.text.ASAuthorizationErrorCanceled" = "Authorization Canceled";
+"logInFailedAlertView.subTitleLabel.text.ASAuthorizationErrorFailed" = "Authorization Request Failed";
+"logInFailedAlertView.subTitleLabel.text.ASAuthorizationErrorInvalidResponse" = "Invalid Response";
+"logInFailedAlertView.subTitleLabel.text.ASAuthorizationErrorNotHandled" = "Authorization Not Handled";
+"logInFailedAlertView.subTitleLabel.text.ASAuthorizationErrorUnknown" = "Authorization Error Unknow";
+"logInFailedAlertView.closeButton.title" = "OK";
+
+// signUp Failed Alert View
+
+"signUpFailedAlertView.titleLabel.text" = "SignUp Failed";
+"signUpFailedAlertView.closeButton.title" = "OK";
+
+// reset Password Failed Alert View
+
+"resetPasswordFailedAlertView.titleLabel.text" = "Reset Password Failed";
+"resetPasswordFailedAlertView.closeButton.title" = "OK";
+
+
+// reset Password Succeed Alert View
+
+"resetPasswordSucceedAlertView.titleLabel.text" = "Reset Password Successfully";
+"resetPasswordSucceedAlertView.subTitleLabel.text" = "Please Go To Your Email Box And Reset Your Password";
+"resetPasswordSucceedAlertView.closeButton.title" = "OK";
+
+
+
+// user Profile View
+
+"userProfileView.editButton.title" = "Edit";
+"userProfileView.loginButton.title" = "LogIn";
+"userProfileView.followButton.title.followed" = "Followed";
+"userProfileView.followButton.title.unfollowed" = "Follow";
+"userProfileView.bioLabel.text.default" = "He is cute, nothing left";
+"userProfileView.bioLabel.text.notLogIn" = "Please click the LogIn button to login ";
+"userProfileView.followCountButton.title" = "Follow";
+"userProfileView.followedCountButton.title" = "Followed";
+"userProfileView.topicCountButton.title" = "Topics";
+"userProfileView.likedCountButton.title" = "Likes";
+"userProfileView.userNameLabel.text.notLogIn" = "Not Login";
+
+// user Profile Edit View Controller
+
+"userProfileEditViewController.saveBarButtonItem.title" = "Measdfefasdfasd";
+
+// user Profile Edit Header View
+
+"userProfileEditHeaderView.changeBackgroundButton.title" = "Change";
+
+// user Profile Edit Detail Bio Cell
+"userProfileEditDetailBioCell.descriptionLabel.title" = "Bio";
+"userProfileEditDetailBioCell.signatureTextView.placeholder" = "Say something...";
+
+// user Profile Edit Detail UserId Cell
+"userProfileEditDetailUserIdCell.descriptionLabel.title" = "User ID";
+
+
+// user Profile Edit Detail User Name Cell
+"userProfileEditDetailUserNameCell.descriptionLabel.title" = "User Name";
+
+// user Profile Changed Alert View
+"userProfileChangedAlertView.title" = "Something changed";
+"userProfileChangedAlertView.subTitle" = "Go back without save?";
+"userProfileChangedAlertView.withoutSaveButton.title" = "Continue";
+"userProfileChangedAlertView.waitButton.title" = "Wait";
+
+// upgrade Alert View
+"upgradeAlertView.title" = "Upgrade Account";
+"upgradeAlertView.subTitle" = "Please Input Your Infomation and Upgrade";
+"upgradeAlertView.userNameField.placeholder" = "User Name";
+"upgradeAlertView.passwordField.placeholder" = "Password";
+"upgradeAlertView.emailField.placeholder" = "Email";
+"upgradeAlertView.upgradeButton.title" = "Upgrade";
+"upgradeAlertView.closeButton.title" = "Cancel";
+
+// upgradeFailedAlertView
+"upgradeFailedAlertView.titleLabel.text" = "Upgrade Failed";
+"upgradeFailedAlertView.closeButton.title" = "OK";
+
+// upgradeSucceedAlertView
+"upgradeSucceedAlertView.titleLabel.text" = "Upgrade Succeed";
+"upgradeSucceedAlertView.subTitle.text" = "Please login with your username and password next time";
+"upgradeSucceedAlertView.closeButton.title" = "OK";
+
+
+
+
+// topic cell
+"topicCell.postButton.title.default" = "posts";
+"topicCell.shareButton.title.default" = "shares";
+"topicCell.likeButton.title.default" = "likes";
+
+// post Section View
+"postQueryFilterView.filterToAllButton.title" = "全部回复";
+"postQueryFilterView.filterToTopicHostOnlyButton.title" = "只看楼主";
+"postQueryFilterView.ascendButton.title" = "  正序  ";
+"postQueryFilterView.descendButton.title" = "  倒序  ";
+
+// post Query Header View
+"postQueryHeaderView.followStatusButton.title.followed" = "已关注";
+"postQueryHeaderView.followStatusButton.title.follow" = "关注";
+
+// post Cell
+"postCell.likeButton.title.default" = "赞";
+
+// add Reply View
+"addReplyView.sendButton.title" = "回复";
+"addReplyView.toLabel.text" = "回复：%@";
+
+// add Post View
+"addPostView.titleLabel.text" = "向 %@ 回帖";
+
+"addPostErrorAlert.subTitle.incorrectInput" = "请输入回帖内容或者照片等内容";
+
+
+"addPostViewController.navigationBar.title" = "回帖";
+"addPostViewController.postTextView.placeholder" = "说点什么...";
+"addPostViewController.postButton.title" = "回帖";
+
+// UFUIReplyQueryViewController Start
+
+"UFUIReplyQueryViewController.replyQuerySectionView.sectionDescriptionLabel.text" = "%ld条回复";
+
+"UFUIReplyQueryViewController.replyQueryAddReplyToPostView.sendButton.title" = "回复";
+"UFUIReplyQueryViewController.replyQueryAddReplyToPostView.toLabel.text" = "回复：%@";
+
+"UFUIReplyQueryViewController.replyQueryAddReplyToReplyView.sendButton.title" = "回复";
+"UFUIReplyQueryViewController.replyQueryAddReplyToReplyView.toLabel.text" = "回复：%@";
+
+"UFUIReplyQueryViewController.replyCell.moreAlertView.title" = "更多";
+"UFUIReplyQueryViewController.replyCell.moreAlertView.subTitle" = "";
+"UFUIReplyQueryViewController.replyCell.moreAlertView.replyButton.title" = "回复";
+"UFUIReplyQueryViewController.replyCell.moreAlertView.reportButton.title" = "举报";
+"UFUIReplyQueryViewController.replyCell.moreAlertView.closeButton.title" = "关闭";
+
+"UFUIReplyQueryViewController.replyQueryHeaderView.moreAlertView.title" = "更多";
+"UFUIReplyQueryViewController.replyQueryHeaderView.moreAlertView.subTitle" = "";
+"UFUIReplyQueryViewController.replyQueryHeaderView.moreAlertView.replyButton.title" = "回复";
+"UFUIReplyQueryViewController.replyQueryHeaderView.moreAlertView.reportButton.title" = "举报";
+"UFUIReplyQueryViewController.replyQueryHeaderView.moreAlertView.closeButton.title" = "关闭";
+
+// UFUIReplyQueryViewController End
+
+// UFUIAddTopicViewController Start
+
+"UFUIAddTopicViewController.navigationBar.title" = "添加话题";
+"UFUIAddTopicViewController.titleTextView.placeholder" = "您和热帖的距离就差一个标题";
+"UFUIAddTopicViewController.contentTextView.placeholder" = "来吧，尽情发挥吧。。。";
+"UFUIAddTopicViewController.publishButton.title" = "发布";
+"UFUIAddTopicViewController.categoryView.textLabel.text" = "选择板块";
+"UFUIAddTopicViewController.categoryView.detailTextLabel.text" = "选择合适的板块会有更多赞哦";
+"UFUIAddTopicViewController.titleCharacterReachesMax.alertView.title" = "标题不能超过31个字";
+
+// UFUITagsViewController
+
+"UFUITagsViewController.navigationBar.title" = "选择标签";
+"UFUITagsViewController.navigationBar.okButton.title" = "确认";
+
+"SCAlertView.title.default.info" = "提示";
+"SCAlertView.closeButton.title.default.ok" = "确认";
+
+// UFUICategoryViewController
+"UFUICategoryViewController.confirmButton.title" = "确认";
+
+
+
+

@@ -1,0 +1,6 @@
+framework module UnifiedForumParseFramework {
+  umbrella header "UnifiedForumParseFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

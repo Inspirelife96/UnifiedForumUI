@@ -1,0 +1,13 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/UnifiedForumUI
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Bolts" "${PODS_CONFIGURATION_BUILD_DIR}/DZNEmptyDataSet" "${PODS_CONFIGURATION_BUILD_DIR}/FDFullscreenPopGesture" "${PODS_CONFIGURATION_BUILD_DIR}/JKCategories" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh" "${PODS_CONFIGURATION_BUILD_DIR}/MKDropdownMenu" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/Parse" "${PODS_CONFIGURATION_BUILD_DIR}/SCLAlertView-Objective-C" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/TZImagePickerController" "${PODS_CONFIGURATION_BUILD_DIR}/UnifiedForumModelParseImpl" "${PODS_CONFIGURATION_BUILD_DIR}/UnifiedForumParseFramework" "${PODS_CONFIGURATION_BUILD_DIR}/YBImageBrowser" "${PODS_CONFIGURATION_BUILD_DIR}/YHPageViewControllerFramework" "${PODS_CONFIGURATION_BUILD_DIR}/YYImage" "${PODS_CONFIGURATION_BUILD_DIR}/YYText" "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+OTHER_LDFLAGS = $(inherited) -framework "Accelerate" -framework "AudioToolbox" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreText" -framework "DZNEmptyDataSet" -framework "Foundation" -framework "ImageIO" -framework "JKCategories" -framework "Lottie" -framework "MBProgressHUD" -framework "MJRefresh" -framework "MKDropdownMenu" -framework "Masonry" -framework "MobileCoreServices" -framework "Photos" -framework "PhotosUI" -framework "QuartzCore" -framework "SCLAlertView_Objective_C" -framework "SDWebImage" -framework "Security" -framework "TZImagePickerController" -framework "UIKit" -framework "UnifiedForumModelParseImpl" -framework "YBImageBrowser" -framework "YHPageViewControllerFramework" -framework "YYText" -weak_framework "Accounts" -weak_framework "Social"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/../..
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

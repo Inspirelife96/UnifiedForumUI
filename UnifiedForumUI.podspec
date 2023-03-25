@@ -28,15 +28,40 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/inspirelife@hotmail.com/UnifiedForumUI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'UnifiedForumUI/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'UnifiedForumUI' => ['UnifiedForumUI/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'UnifiedForumUI' => ['UnifiedForumUI/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.prefix_header_contents = '#import <UnifiedForumModelParseImpl/UnifiedForumModelParseImpl-umbrella.h>', '#import <DZNEmptyDataSet/DZNEmptyDataSet-umbrella.h>', '#import <Lottie/lottie-ios-umbrella.h>', '#import <YBImageBrowser/YBImageBrowser.h>', '#import <SDWebImage/SDWebImage.h>', '#import <Masonry/Masonry.h>', '#import <MJRefresh/MJRefresh.h>', '#import <MBProgressHUD/MBProgressHUD-umbrella.h>', '#import <SCLAlertView_Objective_C/SCLAlertView-Objective-C-umbrella.h>', '#import <JKCategories/JKCategories-umbrella.h>', '#import <YYText/YYText.h>', '#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>', '#import <TZImagePickerController/TZImagePickerController.h>', '#import <MKDropdownMenu/MKDropdownMenu.h>'
+  
+  s.public_header_files = 'INSParseUI/Classes/**/*.h'
+  s.frameworks = 'UIKit'
+  s.dependency 'UnifiedForumModelParseImpl'
+  s.dependency 'JKCategories/Foundation/NSDate'
+  s.dependency 'JKCategories/Foundation/NSString'
+  s.dependency 'JKCategories/UIKit/UIWindow'
+  s.dependency 'JKCategories/UIKit/UIScreen'
+  s.dependency 'JKCategories/UIKit/UIButton'
+  s.dependency 'JKCategories/UIKit/UIColor'
+  s.dependency 'JKCategories/UIKit/UIView'
+  s.dependency 'DZNEmptyDataSet'
+  s.dependency 'Masonry'
+  s.dependency 'lottie-ios'
+  s.dependency 'SDWebImage'
+  s.dependency 'YBImageBrowser'
+  s.dependency 'MJRefresh'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'SCLAlertView-Objective-C'
+  s.dependency 'YYText'
+  s.dependency 'TZImagePickerController'
+  s.dependency 'MKDropdownMenu'
+  s.dependency 'YHPageViewControllerFramework'
 end

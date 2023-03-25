@@ -1,9 +1,13 @@
+install! 'cocoapods',
+  :preserve_pod_file_structure => true
+
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '13.0'
 
 target 'UnifiedForumUI_Example' do
   pod 'UnifiedForumUI', :path => '../'
+  pod 'UnifiedForumModelParseImpl'
 
   target 'UnifiedForumUI_Tests' do
     inherit! :search_paths

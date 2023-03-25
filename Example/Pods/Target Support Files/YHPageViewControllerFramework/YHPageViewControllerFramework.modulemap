@@ -1,0 +1,6 @@
+framework module YHPageViewControllerFramework {
+  umbrella header "YHPageViewControllerFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
